@@ -24,3 +24,6 @@ sum(is.na(creditdata))
 mean(creditdata$tot_balance, na.rm=TRUE)
 #the average total outstanding balance is $107439
 max(creditdata$tot_balance, na.rm=TRUE)
+# this is saying the max of total balance is 2e+05, this seems absurdly high possibly an error
+var(creditdata$tot_bal,creditdata$def_ind)
+sd(creditdata$def_ind, na.rm=TRUE)
