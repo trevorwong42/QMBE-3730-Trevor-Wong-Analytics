@@ -26,3 +26,4 @@ mean(creditdata$tot_balance, na.rm=TRUE)
 max(creditdata$tot_balance, na.rm=TRUE)
 
 
+#test
