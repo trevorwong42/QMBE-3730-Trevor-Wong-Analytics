@@ -25,3 +25,4 @@ mean(creditdata$tot_balance, na.rm=TRUE)
 #the average total outstanding balance is $107439
 max(creditdata$tot_balance, na.rm=TRUE)
 
+#test
